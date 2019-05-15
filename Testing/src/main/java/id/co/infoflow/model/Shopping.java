@@ -35,39 +35,8 @@ public class Shopping {
 		this.bill = bill;
 		this.totalPay = totalPayCount;
 	}
-	
-	public Integer getDiscount() {
-		return discount;
-	}
-	public void setDiscount(Integer discount) {
-		this.discount = discount;
-	}
-	public String getBuyType() {
-		return buyType;
-	}
-	public void setBuyType(String buyType) {
-		this.buyType = buyType;
-	}
-	public Integer getBill() {
-		return bill;
-	}
-	public void setBill(Integer bill) {
-		this.bill = bill;
-	}
 
 	public Integer getTotalPay() {
 		return totalPay;
-	}
-
-	public void setTotalPay(Integer totalPay) {
-		this.totalPay = totalPay;
-	}
-
-	public Customer getCustomer() {
-		return customer;
-	}
-
-	public void setCustomer(Customer customer) {
-		this.customer = customer;
 	}
 }

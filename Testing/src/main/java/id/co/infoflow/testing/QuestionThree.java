@@ -47,6 +47,7 @@ public class QuestionThree {
 	public static void testCaseCustomerBuyNotGroceriesTotal1000(){
 		Customer customer = new Customer();
 		customer.setYear(3);
+		customer.setType("");
 		Shopping shopping = new Shopping(customer, "", 1000);
 		System.out.println("Total must be pay testCaseCustomerBuyNotGroceriesTotal1000 : " + shopping.getTotalPay());
 	}
